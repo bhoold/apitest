@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+<link rel="stylesheet" type="text/css" href="../../assets/bootstrap-4.0.0-dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../../assets/css/global.css">
+<style>
+#container{
+    border-top: 1px solid white;
+}
+#btnGroup{
+	position: fixed;
+}
+#list{
+	margin-top: 3em;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid" id="container">
+<div id="btnGroup">
+<button id="add" class="btn btn-default btn-sm">添加</button>
+<button id="save" class="btn btn-primary btn-sm">保存</button>
+</div>
+<table id="list" class="table table-bordered">
+	<thead>
+		<tr>
+			<th><label><input type="checkbox">启用</label></th>
+			<th>匹配项</th>
+			<th>result</th>
+			<th>formData</th>
+			<th>删除</th>
+		</tr>
+	</thead>
+	<tbody>
+
+	</tbody>
+</table>
+</div>
+
+<script src="../../assets/js/jquery-3.2.1.min.js"></script>
+<script src="../../assets/js/lodash.js"></script>
+<script src="devtools-panel.js"></script>
+</body>
+</html>

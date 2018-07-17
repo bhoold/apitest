@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "description": "链接请求添加自定义headers",
+    "name": "api测试",
+    "version": "1.0",
+    "developer": {
+      "name": "mrw",
+      "url": "http://www.huangshaoshu.com"
+    },
+    "browser_action": {
+        "default_icon": "icons/jewel.32.png",
+        "default_popup": "popup.html"
+    },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "storage"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "devtools_page": "devtools-page.html"
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pop-up</title>
+<link rel="stylesheet" type="text/css" href="assets/bootstrap-4.0.0-dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets/css/global.css">
+<style>
+.item{
+	text-align: left;
+	margin: 5px;
+}
+.item span{
+	display: inline-block;
+	width: 3rem;
+}
+.item input[type="text"]{
+	width: 20rem;
+}
+.item textarea{
+	width: 20rem;
+}
+</style>
+</head>
+<body>
+<div class="item">
+	<label for="">
+	<span>host:</span>
+	<textarea id="host"></textarea>
+	</label>
+</div>
+<div class="item">
+	<label for="">
+	<span>token:</span>
+	<input id="token" type="text">
+	</label>
+</div>
+<div class="item">
+	<label for="">
+	<span>启用:</span>
+	<input id="enable" type="checkbox">
+	</label>
+</div>
+<div class="item">
+	<button id="save" class="btn btn-primary btn-sm">保存</button>
+</div>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/lodash.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
